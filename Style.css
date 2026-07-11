@@ -1,0 +1,167 @@
+/* ===== GOOGLE FONT ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* ===== RESET ===== */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f8f6f1;
+color:#222;
+overflow-x:hidden;
+}
+
+.container{
+width:90%;
+max-width:1280px;
+margin:auto;
+}
+
+/* ===== TOP BAR ===== */
+
+.top-bar{
+background:#0B5D3B;
+color:#fff;
+padding:12px 0;
+font-size:14px;
+}
+
+.top-bar .container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.top-links{
+display:flex;
+gap:25px;
+}
+
+/* ===== HEADER ===== */
+
+header{
+position:sticky;
+top:0;
+background:#fff;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+z-index:999;
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 0;
+}
+
+.logo img{
+height:60px;
+}
+
+nav ul{
+display:flex;
+gap:35px;
+list-style:none;
+}
+
+nav ul li a{
+text-decoration:none;
+font-weight:600;
+color:#222;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#0B5D3B;
+}
+
+.header-icons{
+display:flex;
+gap:20px;
+font-size:24px;
+cursor:pointer;
+}
+
+/* ===== HERO ===== */
+
+.hero{
+padding:80px 0;
+background:#F7F3EB;
+}
+
+.hero-content{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:60px;
+}
+
+.hero-left{
+flex:1;
+}
+
+.tag{
+display:inline-block;
+padding:8px 18px;
+background:#E6F5EE;
+color:#0B5D3B;
+border-radius:50px;
+font-size:14px;
+margin-bottom:20px;
+font-weight:600;
+}
+
+.hero-left h1{
+font-size:64px;
+line-height:74px;
+margin-bottom:20px;
+}
+
+.hero-left p{
+font-size:18px;
+color:#666;
+margin-bottom:35px;
+max-width:520px;
+}
+
+.hero-buttons{
+display:flex;
+gap:20px;
+}
+
+.btn{
+background:#0B5D3B;
+color:#fff;
+padding:16px 34px;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+transition:.3s;
+}
+
+.btn:hover{
+background:#C59A2B;
+}
+
+.btn-outline{
+border:2px solid #0B5D3B;
+padding:14px 34px;
+border-radius:10px;
+text-decoration:none;
+font-weight:600;
+color:#0B5D3B;
+}
+
+.hero-right img{
+width:100%;
+max-width:520px;
+display:block;
+}
